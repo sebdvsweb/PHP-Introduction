@@ -1,5 +1,6 @@
 # PHP-Partie-5-Tableaux
 Les Tableaux
+
 ## Petit tips 
 En PHP, un tableau est une structure de données qui permet de stocker plusieurs valeurs dans une seule variable. 
 
@@ -81,3 +82,33 @@ Avec le tableau de l'exercice 5, afficher toutes les valeurs de ce tableau.
 ## Exercice 10
 Avec le tableau de l'exercice 5, afficher toutes les valeurs de ce tableau ainsi que les clés associés.  
 Cela pourra être, par exemple, de la forme : **"Le département" + nom du département + "a le numéro" + numéro du département**
+
+## Exercice 11 : Tableau des marques de voitures
+Écrivez un script PHP qui utilise un tableau simple pour stocker quelques marques de voitures, puis affichez-les.
+
+### Consignes :
+
+1. Déclarez un tableau simple `$marquesVoitures` et y inclure six ou sept marques de voiture au choix.
+
+2. Utilisez une boucle `foreach` pour afficher chaque marque de voiture dans une nouvelle ligne.
+
+3. Affichez également le nombre total de marques de voitures présentes dans le tableau.
+
+## Exercice 12 : Tableau des matériaux de Minecraft
+
+Écrivez un script PHP qui utilise un tableau pour stocker quelques matériaux de Minecraft et leurs caractéristiques. Ensuite, vous devez afficher ces informations à l'aide d'une boucle.
+
+### Consignes :
+
+1. Déclarez un tableau associatif `$materiauxMinecraft` avec les éléments suivants :
+   - "Bois" : "Obtient par coupe d'arbres"
+   - "Pierre" : "Obtient par minage avec une pioche en pierre ou plus"
+   - "Fer" : "Obtient par minage avec une pioche en fer ou plus"
+   - "Diamant" : "Obtient par minage avec une pioche en diamant"
+   - "Sable" : "Obtient en minant du sable"
+
+2. Utilisez une boucle `foreach` pour afficher pour chaque matériau de Minecraft :
+   - Le nom du matériau
+   - La méthode pour l'obtenir
+   - Exemple de sortie : "Le matériau Bois est obtenu par coupe d'arbres."
+
