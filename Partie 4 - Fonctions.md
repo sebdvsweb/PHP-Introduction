@@ -82,8 +82,6 @@ Les rôles peuvent être :
    - "Vous êtes une archère féminine."
    - Si les paramètres ne correspondent pas à un genre ou rôle valide, afficher : "Genre ou rôle invalide."
 
-### Exemple de solution :
-
 ## Exercice 8 : Somme
 Faire une fonction qui prend en paramètre trois nombres et qui renvoit la somme de ces nombres.  
 Tous les paramètres doivent avoir une valeur par défaut.
