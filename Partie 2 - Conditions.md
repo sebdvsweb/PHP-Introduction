@@ -113,6 +113,7 @@ Traduire ce code avec des if et des else :
     <?php
       echo ($age >= 18) ? 'Tu es majeur' : 'Tu n\'es pas majeur';
     ?>
+    
 ## Exercice 7
 Traduire ce code avec des if et des else :  
 
@@ -120,6 +121,7 @@ Traduire ce code avec des if et des else :
     <?php
       echo ($isOk == false) ? 'c\'est pas bon !!!' : 'c\'est ok !!';
     ?>
+    
 ## Exercice 8
 Traduire ce code avec des if et des else :  
 
@@ -127,3 +129,28 @@ Traduire ce code avec des if et des else :
     <?php
       echo ($isOk) ? 'c'est ok !!' : 'c'est pas bon !!!';
     ?>
+
+## Exercice 9 : Vérification de mots de passe
+
+Écrivez un script PHP qui vérifie si deux mots de passe saisis sont identiques.
+
+### Consignes :
+1. Déclarez deux variables `$password1` et `$password2` pour stocker les mots de passe.
+2. Comparez-les en utilisant une structure conditionnelle.
+3. Si les mots de passe sont identiques, affichez : "Les mots de passe correspondent.".
+4. Sinon, affichez : "Les mots de passe ne correspondent pas.".
+
+## Exercice 10 : Calculateur de notes
+
+Écrivez un script PHP qui attribue une mention en fonction d'une note sur 20.
+
+### Consignes :
+1. Déclarez une variable `$note` pour stocker la note d'un étudiant (par exemple, 16).
+2. Utilisez une structure `if/else if/else` pour attribuer les mentions suivantes :
+    - **"Excellent"** : si la note est supérieure ou égale à 16.
+    - **"Bien"** : si la note est comprise entre 12 et 15 inclus.
+    - **"Assez Bien"** : si la note est comprise entre 10 et 11 inclus.
+    - **"Insuffisant"** : si la note est inférieure à 10.
+3. Affichez la mention correspondante.
+
+    
