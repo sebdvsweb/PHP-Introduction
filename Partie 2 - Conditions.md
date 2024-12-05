@@ -54,6 +54,29 @@ $message = ($nombre >= 20) ? "C'est plus de 20" : "C'est moins de 20";
 echo $message;
 ```
 
+Tu peux enfin utiliser la structure **switch/case**.
+
+```php
+$jour = "lundi";
+
+switch ($jour) {
+    case "lundi":
+        echo "Aujourd'hui, c'est lundi.";
+        break;
+    case "mardi":
+        echo "Aujourd'hui, c'est mardi.";
+        break;
+    case "mercredi":
+        echo "Aujourd'hui, c'est mercredi.";
+        break;
+    default:
+        echo "Jour non reconnu.";
+}
+```
+
+Explications : On déclare une variable `$jour` et lui attribue la valeur "lundi".  
+La structure `switch` compare cette variable avec les différents `case` ("lundi", "mardi", "mercredi"). Dès qu'une correspondance est trouvée, le code dans ce `case` est exécuté, puis on utilise `break` pour sortir de la structure `switch`.  
+Si aucune correspondance n'est trouvée, le `default` est exécuté.
 
 ### A vous de jouer ! 
 
