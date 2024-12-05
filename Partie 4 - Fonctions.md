@@ -41,10 +41,10 @@ Faire une fonction qui retourne **true**.
 ## Exercice 2
 Faire une fonction qui prend en paramètre une chaine de caractères et qui retourne cette même chaine.
 
-## Exercice 3
+## Exercice 3 : Concaténation
 Faire une fonction qui prend en paramètre deux chaines de caractères et qui revoit la concaténation de ces deux chaines
 
-## Exercice 4
+## Exercice 4 : Comparaisons
 Faire une fonction qui prend en paramètre deux nombres. La fonction doit retourner :
 - **Le premier nombre est plus grand** si le premier nombre est plus grand que le deuxième
 - **Le premier nombre est plus petit** si le premier nombre est plus petit que le deuxième
@@ -53,7 +53,7 @@ Faire une fonction qui prend en paramètre deux nombres. La fonction doit retour
 ## Exercice 5
 Faire une fonction qui prend en paramètre un nombre et une chaine de caractères et qui renvoit la concaténation de ces deux paramètres.
 
-## Exercice 6
+## Exercice 6 : Présentation
 Faire une fonction qui prend trois paramètres : **le nom, le prénom et l'âge d'une personne**. Elle doit renvoyer une chaine de la forme :  
 "Bonjour" + **nom** + **prénom** + ",tu as" + **age** + "ans".
 
@@ -70,6 +70,29 @@ La fonction doit renvoyer en fonction des paramètres :
 
 Gérer tous les cas.
 
-## Exercice 8
+## Exercice 8 : Somme
 Faire une fonction qui prend en paramètre trois nombres et qui renvoit la somme de ces nombres.  
 Tous les paramètres doivent avoir une valeur par défaut.
+
+## Exercice 9 : Calcul du score total dans un jeu
+Écrivez une fonction PHP qui calcule le score total d'un joueur en fonction du nombre de niveaux qu'il a franchis et du score obtenu à chaque niveau.
+
+### Consignes :
+1. Déclarez une fonction `calculerScore` qui prend deux paramètres :
+   - `$niveaux` : le nombre de niveaux franchis.
+   - `$scoreParNiveau` : le score obtenu à chaque niveau.
+2. La fonction doit retourner le score total, qui est le produit du nombre de niveaux et du score par niveau.
+3. Affichez le score total du joueur.
+
+## Exercice 10 : Vérification des points de vie d'un personnage
+
+Écrivez une fonction PHP qui vérifie si un personnage a encore des points de vie (HP) après avoir subi des dégâts.
+
+### Consignes :
+
+1. Déclarez une fonction `verifierPointsDeVie` qui prend deux paramètres :
+   - `$pointsDeVie` : les points de vie actuels du personnage.
+   - `$degats` : les dégâts subis par le personnage.
+2. La fonction doit calculer les nouveaux points de vie du personnage en soustrayant les dégâts des points de vie.
+3. Si les nouveaux points de vie sont supérieurs à 0, affichez "Le personnage a des points de vie restants."
+4. Sinon, affichez "Le personnage est mort."
