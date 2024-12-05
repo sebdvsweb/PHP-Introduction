@@ -94,3 +94,84 @@ Dans la première mettre le résultat de l'opération **3 + 4**.
 Dans la deuxième mettre le résultat de l'opération **5 * 20**.  
 Dans la troisième mettre le résultat de l'opération **45 / 5**.  
 Afficher le contenu des variables.
+
+## Exercice 9 : Manipulation de chaînes de caractères
+
+Déclarez deux variables :  
+- `$prenom` contenant votre prénom  
+- `$nom` contenant votre nom  
+
+1. Concaténez les deux variables dans une nouvelle variable `$nomComplet` en ajoutant un espace entre les deux.  
+2. Affichez la longueur de la chaîne `$nomComplet` à l'aide de la fonction `strlen()`.  
+   Exemple :  
+   ```php
+   $texte = "Bonjour";  
+   echo strlen($texte); // Affiche 7
+   ```
+3. Affichez `$nomComplet` en majuscules à l'aide de la fonction `strtoupper()`.  
+   Exemple :  
+   ```php 
+   $texte = "hello";  
+   echo strtoupper($texte); // Affiche HELLO
+   ```
+   
+## Exercice 10 : Les opérateurs mathématiques
+   
+1. Déclarez deux variables `$nombre1` et `$nombre2` contenant des nombres entiers.  
+2. Calculez et affichez :  
+   - Leur **somme**  
+   - Leur **produit**  
+3. Si `$nombre2` est différent de 0, calculez et affichez :  
+   - Leur **division**  
+   - Le **reste** de leur division (modulo)  
+
+Assurez-vous de vérifier que `$nombre2` n'est pas égal à 0 avant de tenter une division ou un modulo.
+
+## Exercice 11 : Les constantes et les variables
+
+1. Déclarez une constante nommée `PI` avec la valeur `3.14159`.  
+   Exemple :  
+   ```php
+   define("NOM_CONSTANTE", valeur);
+   ```
+2. Déclarez une variable $rayon pour stocker un rayon de cercle (par exemple, 5).
+
+3. Calculez et affichez :
+
+ - Le périmètre du cercle
+ - L'aire du cercle
+
+4. Affichez les résultats avec un message descriptif.
+Exemple de sortie attendue :
+
+ ```php
+Le périmètre du cercle est de 31.4159.
+L'aire du cercle est de 78.53975.
+```
+
+## Exercice 12 : Calcul du prix TTC 
+
+1. Déclarez une constante `TVA` avec la valeur `0.2` (pour représenter 20 % de TVA).  
+
+   Exemple :  
+   ```php
+   define("TVA", 0.2);
+   ```
+2. Déclarez une variable $prixHT pour stocker un prix hors taxes (par exemple, 50).
+
+3. Calculez le prix TTC en utilisant la formule :
+
+```java
+prix TTC = prix HT + (prix HT * TVA)
+```
+
+4. Affichez les résultats avec un message descriptif.
+
+Exemple de sortie attendue :
+```java
+Le prix HT est de 50.
+Le prix TTC avec une TVA de 20% est de 60.
+```
+
+
+
