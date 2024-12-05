@@ -112,3 +112,13 @@ Cela pourra être, par exemple, de la forme : **"Le département" + nom du dépa
    - La méthode pour l'obtenir
    - Exemple de sortie : "Le matériau Bois est obtenu par coupe d'arbres."
 
+## Exercice 13 : Trier un tableau de prénoms
+Écrivez un script PHP qui trie un tableau contenant des prénoms par ordre alphabétique et les affiche.
+
+## Consignes :
+
+1. Déclarez un tableau `$prenoms` contenantune dizaine de prénoms.
+
+2. Utilisez la fonction PHP `sort()` pour trier le tableau par ordre alphabétique.
+
+3. Affichez chaque prénom ou ville dans le tableau trié avec une boucle `foreach`.
