@@ -80,7 +80,8 @@ En fonction de l'âge et du genre afficher la phrase correspondante :
 Gérer tous les cas.
 
 ## Exercice 4 : switch/case
-L'échelle de Richter est un outil de mesure qui permet de définir la magnitude de moment d'un tremblement de terre. Cette échelle va de 1 à 9.  
+L'échelle de Richter est un outil de mesure qui permet de définir la magnitude de moment d'un tremblement de terre.  
+Cette échelle va de 1 à 9.  
 Créer une variable **magnitude**. Selon la valeur de **magnitude**, afficher la phrase correspondante.  
 
 Magnitude   |   Phrase
@@ -96,7 +97,7 @@ Magnitude   |   Phrase
 9           |   Séisme capable de tout détruire sur une très vaste zone.  
 
 Gérer tous les cas.  
-*Utilser autre chose que des if else*
+**Utiliser une structure switch/case**
 
 ## Exercice 5
 Traduire ce code avec des if et des else :  
