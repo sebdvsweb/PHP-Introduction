@@ -57,18 +57,32 @@ Faire une fonction qui prend en paramètre un nombre et une chaine de caractère
 Faire une fonction qui prend trois paramètres : **le nom, le prénom et l'âge d'une personne**. Elle doit renvoyer une chaine de la forme :  
 "Bonjour" + **nom** + **prénom** + ",tu as" + **age** + "ans".
 
-## Exercice 7
-Faire une fonction qui prend deux paramètres : **l'âge et le genre d'une personne**. Le genre peut être :
-- Homme
-- Femme  
+## Exercice 7 : Vérification du genre et du rôle d'un personnage
+Écrivez une fonction PHP qui prend deux paramètres : le genre et le rôle d'un personnage. Le genre peut être :
+- Masculin
+- Féminin
 
-La fonction doit renvoyer en fonction des paramètres :
-- **Vous êtes un homme et vous êtes majeur**
-- **Vous êtes un homme et vous êtes mineur**
-- **Vous êtes une femme et vous êtes majeur**
-- **Vous êtes une femme et vous êtes mineur**
+Les rôles peuvent être :
+- Guerrier
+- Mage
+- Voleur
+- Archer
 
-Gérer tous les cas.
+### Consignes :
+
+1. La fonction doit vérifier les deux paramètres (genre et rôle) et afficher un message spécifique en fonction de ces paramètres.
+2. Voici les messages attendus en fonction des combinaisons :
+   - "Vous êtes un guerrier masculin."
+   - "Vous êtes un mage masculin."
+   - "Vous êtes un voleur masculin."
+   - "Vous êtes un archer masculin."
+   - "Vous êtes une guerrière féminine."
+   - "Vous êtes une magicienne féminine."
+   - "Vous êtes une voleuse féminine."
+   - "Vous êtes une archère féminine."
+   - Si les paramètres ne correspondent pas à un genre ou rôle valide, afficher : "Genre ou rôle invalide."
+
+### Exemple de solution :
 
 ## Exercice 8 : Somme
 Faire une fonction qui prend en paramètre trois nombres et qui renvoit la somme de ces nombres.  
