@@ -71,3 +71,17 @@ En allant de 1 à 100 avec un pas de 15, afficher le message **On tient le bon b
 
 ## Exercice 8
 En allant de 200 à 0 avec un pas de 12, afficher le message **Enfin !!!!**.
+
+## Exercice 9 : Somme des entiers
+Écrivez un script PHP qui calcule la somme de tous les entiers de 1 à 100 en utilisant une boucle `for`.
+
+### Consignes :
+1. Utilisez une boucle `for` pour itérer de 1 à 100.
+2. Calculez la somme de ces entiers et affichez le résultat.
+
+## Exercice 10 : Table de multiplication
+Écrivez un script PHP qui affiche la table de multiplication de 5.
+
+### Consignes :
+1. Utilisez une boucle for pour afficher la table de multiplication de 5, de 1 à 10.
+2. Affichez chaque résultat sous la forme : "5 x 1 = 5", "5 x 2 = 10", etc.
