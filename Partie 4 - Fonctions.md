@@ -1,7 +1,4 @@
 # PHP-Partie-4-Fonctions
-Les Fonctions
-
-D'accord, Hamza. Voici une explication simple des fonctions, des boucles et des conditions en PHP :
 
 ## Fonctions
 
