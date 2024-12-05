@@ -57,16 +57,16 @@ echo $message;
 
 ### A vous de jouer ! 
 
-## Exercice 1
+## Exercice 1 : if/else
 Créer une variable **age** et l'initialiser avec une valeur.  
 Si l'âge est supérieur ou égale à 18, afficher **Vous êtes majeur**. Dans le cas contraire, afficher **Vous êtes mineur**.
 
-## Exercice 2
+## Exercice 2 : boolean
 Créer une variable **isEasy** de type booléan et l'initialiser avec une valeur.  
 Afficher **C'est facile!!** si c'est vrai. Dans le cas contraire afficher **C'est difficile !!!**.  
 **Bonus :** L'écrire de deux manières différentes.
 
-## Exercice 3
+## Exercice 3 : if/elseif/else
 Créer deux variables **age** et **gender**. La variable **gender** peut prendre comme valeur :
 - Homme
 - Femme  
@@ -79,7 +79,7 @@ En fonction de l'âge et du genre afficher la phrase correspondante :
 
 Gérer tous les cas.
 
-## Exercice 4
+## Exercice 4 : switch/case
 L'échelle de Richter est un outil de mesure qui permet de définir la magnitude de moment d'un tremblement de terre. Cette échelle va de 1 à 9.  
 Créer une variable **magnitude**. Selon la valeur de **magnitude**, afficher la phrase correspondante.  
 
