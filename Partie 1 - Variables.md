@@ -146,11 +146,11 @@ Assurez-vous de vérifier que `$nombre2` n'est pas égal à 0 avant de tenter un
 
 4. Affichez les résultats avec un message descriptif.
 
-Exemple de sortie attendue :
- ```php
-Le périmètre du cercle est de 31.4159.
-L'aire du cercle est de 78.53975.
-```
+   Exemple de sortie attendue :
+   ```php
+   Le périmètre du cercle est de 31.4159.
+   L'aire du cercle est de 78.53975.
+   ```
 
 ## Exercice 12 : Calcul du prix TTC 
 
