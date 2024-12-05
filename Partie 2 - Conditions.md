@@ -41,6 +41,20 @@ if ($age < 13) {
 }
 ```
 
+Tu peux aussi utiliser la syntaxe ternaire :
+
+```php
+// Déclaration d'une variable
+$nombre = 10;
+
+// Utilisation de l'opérateur ternaire
+$message = ($nombre >= 20) ? "C'est plus de 20" : "C'est moins de 20";
+
+// Affichage du résultat
+echo $message;
+```
+
+
 ### A vous de jouer ! 
 
 ## Exercice 1
