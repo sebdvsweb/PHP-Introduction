@@ -177,4 +177,13 @@ Traduire ce code avec des if et des else :
     - **"Insuffisant"** : si la note est inférieure à 10.
 3. Affichez la mention correspondante.
 
+## Exercice 11 : Déterminer le type de Pokémon
+
+Écrivez un script PHP qui, en fonction du nom d'un Pokémon, affiche son type. Par exemple, si le nom du Pokémon est "Bulbizarre", le script doit afficher "Plante / Poison".
+
+### Consignes :
+1. Déclarez une variable `$pokemon` pour stocker le nom d'un Pokémon (par exemple, "Pikachu").
+2. Utilisez une structure `switch` pour tester différentes valeurs de `$pokemon`.
+3. Pour chaque Pokémon, affichez son type avec un message comme : "Pikachu est un Pokémon de type Électrique."
+4. Si le Pokémon n'est pas dans la liste, affichez un message indiquant "Pokémon inconnu."
     
