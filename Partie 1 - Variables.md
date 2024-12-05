@@ -103,12 +103,14 @@ Déclarez deux variables :
 
 1. Concaténez les deux variables dans une nouvelle variable `$nomComplet` en ajoutant un espace entre les deux.  
 2. Affichez la longueur de la chaîne `$nomComplet` à l'aide de la fonction `strlen()`.  
+
    Exemple :  
    ```php
    $texte = "Bonjour";  
    echo strlen($texte); // Affiche 7
    ```
-3. Affichez `$nomComplet` en majuscules à l'aide de la fonction `strtoupper()`.  
+4. Affichez `$nomComplet` en majuscules à l'aide de la fonction `strtoupper()`.  
+
    Exemple :  
    ```php 
    $texte = "hello";  
@@ -129,7 +131,8 @@ Assurez-vous de vérifier que `$nombre2` n'est pas égal à 0 avant de tenter un
 
 ## Exercice 11 : Les constantes et les variables
 
-1. Déclarez une constante nommée `PI` avec la valeur `3.14159`.  
+1. Déclarez une constante nommée `PI` avec la valeur `3.14159`.
+  
    Exemple :  
    ```php
    define("NOM_CONSTANTE", valeur);
@@ -142,8 +145,8 @@ Assurez-vous de vérifier que `$nombre2` n'est pas égal à 0 avant de tenter un
  - L'aire du cercle
 
 4. Affichez les résultats avec un message descriptif.
-Exemple de sortie attendue :
 
+Exemple de sortie attendue :
  ```php
 Le périmètre du cercle est de 31.4159.
 L'aire du cercle est de 78.53975.
@@ -161,17 +164,14 @@ L'aire du cercle est de 78.53975.
 
 3. Calculez le prix TTC en utilisant la formule :
 
-```java
-prix TTC = prix HT + (prix HT * TVA)
-```
+   ```java
+   prix TTC = prix HT + (prix HT * TVA)
+   ```
 
 4. Affichez les résultats avec un message descriptif.
 
-Exemple de sortie attendue :
-```java
-Le prix HT est de 50.
-Le prix TTC avec une TVA de 20% est de 60.
-```
-
-
-
+   Exemple de sortie attendue :
+   ```java
+   Le prix HT est de 50.
+   Le prix TTC avec une TVA de 20% est de 60.
+   ```
