@@ -172,7 +172,7 @@ Créez une fonction qui prend un nom de jeu en paramètre et vérifie s'il est p
 Testez la fonction avec différents jeux.
 
 ## Exercice 8 : Trier le tableau par ordre alphabétique des jeux  
-Triez le tableau `$jeuxVideo` en fonction du **nom des jeux** et affichez le tableau trié.
+Utilisez `ksort()` pour triez le tableau `$jeuxVideo` en fonction du **nom des jeux** et affichez le tableau trié.
 
 ## Exercice 9 : Trier le tableau par ordre alphabétique des consoles  
-Triez le tableau `$jeuxVideo` en fonction du **nom des consoles** et affichez le tableau trié.
+Utilisez `asort()` pour triez le tableau `$jeuxVideo` en fonction du **nom des consoles** et affichez le tableau trié.
