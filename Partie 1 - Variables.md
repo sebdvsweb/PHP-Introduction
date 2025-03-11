@@ -171,7 +171,7 @@ Assurez-vous de vérifier que `$nombre2` n'est pas égal à 0 avant de tenter un
 4. Affichez les résultats avec un message descriptif.
 
    Exemple de sortie attendue :
-   ```java
+   ```php
    Le prix HT est de 50.
    Le prix TTC avec une TVA de 20% est de 60.
    ```
