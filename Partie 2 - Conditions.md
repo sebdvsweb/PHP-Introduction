@@ -146,7 +146,7 @@ Traduire ce code avec des if et des else :
       echo ($isOk == false) ? 'c\'est pas bon !!!' : 'c\'est ok !!';
     ?>
     
-## Exercice 9 : Vérification de mots de passe
+## Exercice 8 : Vérification de mots de passe
 
 Écrivez un script PHP qui vérifie si deux mots de passe saisis sont identiques.
 
