@@ -146,14 +146,6 @@ Traduire ce code avec des if et des else :
       echo ($isOk == false) ? 'c\'est pas bon !!!' : 'c\'est ok !!';
     ?>
     
-## Exercice 8
-Traduire ce code avec des if et des else :  
-
-
-    <?php
-      echo ($isOk) ? 'c'est ok !!' : 'c'est pas bon !!!';
-    ?>
-
 ## Exercice 9 : Vérification de mots de passe
 
 Écrivez un script PHP qui vérifie si deux mots de passe saisis sont identiques.
@@ -164,7 +156,7 @@ Traduire ce code avec des if et des else :
 3. Si les mots de passe sont identiques, affichez : "Les mots de passe correspondent.".
 4. Sinon, affichez : "Les mots de passe ne correspondent pas.".
 
-## Exercice 10 : Calculateur de notes
+## Exercice 9 : Calculateur de notes
 
 Écrivez un script PHP qui attribue une mention en fonction d'une note sur 20.
 
@@ -177,7 +169,7 @@ Traduire ce code avec des if et des else :
     - **"Insuffisant"** : si la note est inférieure à 10.
 3. Affichez la mention correspondante.
 
-## Exercice 11 : Déterminer le type de Pokémon
+## Exercice 10 : Déterminer le type de Pokémon
 
 Écrivez un script PHP qui, en fonction du nom d'un Pokémon, affiche son type. Par exemple, si le nom du Pokémon est "Bulbizarre", le script doit afficher "Plante / Poison". Utilisez une structure **switch/case**.
 
