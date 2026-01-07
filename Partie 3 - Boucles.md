@@ -85,3 +85,19 @@ En allant de 200 à 0 avec un pas de 12, afficher le message **Enfin !!!!**.
 ### Consignes :
 1. Utilisez une boucle for pour afficher la table de multiplication de 5, de 1 à 10.
 2. Affichez chaque résultat sous la forme : "5 x 1 = 5", "5 x 2 = 10", etc.
+
+## Exercice 11 : Consonnes et voyelles
+Écrivez un script PHP qui parcourt une chaîne de caractères et compte :
+ - Le nombre de voyelles
+ - Le nombre de consonnes.
+Utilisez une boucle et des conditions if pour déterminer si un caractère est une voyelle ou une consonne.
+
+## Exercice 12 : Notes et moyennes
+Vous avez un tableau des notes de plusieurs élèves, par exemple :
+`$notes = [10, 15, 12, 8, 19, 7, 13];`
+ - Parcourez les notes à l'aide d'une boucle.
+ - Déterminez si chaque note est suffisante (>= 10) ou insuffisante (< 10) et affichez un message correspondant.
+ - Calculez la moyenne des notes à la fin et affichez si elle est supérieure ou inférieure à 10.
+
+## Exercice 13 : Étoiles
+Écrivez un script qui affiche un triangle inversé d’étoiles *. La hauteur de la pyramide est donnée par une variable `$n`.
